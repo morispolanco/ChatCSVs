@@ -3,6 +3,7 @@ from pandasai.llm.openai import OpenAI
 import os
 import pandas as pd
 from pandasai import PandasAI
+import openai
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
