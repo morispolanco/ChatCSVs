@@ -1,12 +1,8 @@
 import streamlit as st 
 from pandasai.llm.openai import OpenAI
-from dotenv import load_dotenv
 import os
 import pandas as pd
 from pandasai import PandasAI
-
-load_dotenv()
-
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
